@@ -19,7 +19,7 @@ function Works() {
         </div>
         <div className="works-main-text">Trabajos Recientes</div>
         <div className="images-container">
-          {/* Inicio */}
+          {/* Inicio  */}
           <div className="works-section">
             <Link to="./Website">
               <img
