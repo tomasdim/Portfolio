@@ -1,0 +1,23 @@
+.error-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.error-main-text {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 5%;
+}
+
+.error-secondary-text {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 5%;
+}

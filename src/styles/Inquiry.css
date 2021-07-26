@@ -1,0 +1,201 @@
+.Inquiry-container-left {
+  width: 50%;
+  max-width: 50%;
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .Inquiry-container-left {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.Inquiry-text-container {
+  display: flex;
+  background-color: purple;
+}
+
+.Inquiry-container-right {
+  background-color: #fff;
+  padding-bottom: 5%;
+  display: flex;
+  width: 50%;
+  max-width: 50%;
+  padding-top: 0%;
+  text-align: left;
+  background-color: #fff;
+}
+
+@media (max-width: 600px) {
+  .Inquiry-container-right {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.Inquiry-container {
+  padding-bottom: 0%;
+  background-color: #fff;
+  margin-left: 5%;
+  width: 90%;
+  max-width: 90%;
+  display: flex;
+  background-color: gold;
+}
+
+@media (max-width: 600px) {
+  .Inquiry-container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .Inquiry-container {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.Inquiry-secondary-text {
+  color: #01b7ff;
+  font-family: Roboto Slab, serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.Inquiry-primary-text {
+  font-family: Roboto Slab, serif;
+  font-size: 55px;
+  margin-left: 5%;
+  margin-top: 5%;
+  line-height: 60px;
+}
+
+@media (max-width: 600px) {
+  .Inquiry-primary-text {
+    font-size: 35px;
+  }
+}
+
+.Inquiry-inner-circle {
+  display: flex;
+  background-color: #01b7ff;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+
+.Inquiry-mail-container {
+  display: flex;
+  align-items: center;
+  top: auto;
+  right: auto;
+}
+
+.Inquiry-net-container {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  top: auto;
+  right: auto;
+}
+
+.Inquiry-mail {
+  font-family: Roboto Slab, serif;
+  font-weight: bold;
+}
+
+.Inquiry-socia-icon-container {
+  display: flex;
+  width: 32px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.Inquiry-input {
+  height: 40px;
+  width: 82%;
+  margin: 3%;
+  margin-left: 5%;
+  font-family: Roboto Slab, serif;
+  outline: none;
+  border: 1px solid #cccc;
+}
+
+.Inquiry-textarea {
+  margin-top: 3%;
+  margin-left: 5%;
+  max-width: 82%;
+  min-width: 82%;
+  min-height: 100px;
+  max-height: 100px;
+  font-family: Roboto Slab, serif;
+}
+
+.Inquiry-button-container {
+  margin-top: 5%;
+  display: flex;
+  width: 85%;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.Inquiry-button {
+  color: white;
+  font-family: Roboto Slab, serif;
+  width: 200px;
+  border-radius: 30px;
+  height: 60px;
+  background-color: #44f0b5;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+  align-self: center;
+  border: none;
+}
+
+.Inquiry-button:hover {
+  width: 225px;
+}
+
+.mail-alert {
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 25%;
+}
+
+.mail-text {
+  color: rgb(20, 20, 20);
+  font-size: 30px;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.media-icon {
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.media-icon:hover {
+  color: #01b7ff;
+}
+
+@media (max-width: 360px) {
+  .Inquiry-label {
+    max-width: 100%;
+  }
+}
