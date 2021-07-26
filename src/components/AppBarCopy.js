@@ -164,7 +164,7 @@ export default function ButtonAppBarCopy() {
                 style={{ fontSize: 28 }}
                 className={classes.mediaIcon}
                 onClick={() => {
-                  window.open("https://github.com", "_blank");
+                  window.open("https://github.com/tomasdim", "_blank");
                 }}
               />
             </div>
@@ -173,7 +173,10 @@ export default function ButtonAppBarCopy() {
                 style={{ fontSize: 28 }}
                 className={classes.mediaIcon}
                 onClick={() => {
-                  window.open("https://linkedin.com", "_blank");
+                  window.open(
+                    "https://www.linkedin.com/in/tomasdim/",
+                    "_blank"
+                  );
                 }}
               />
             </div>
@@ -182,7 +185,10 @@ export default function ButtonAppBarCopy() {
                 style={{ fontSize: 28 }}
                 className={classes.mediaIcon}
                 onClick={() => {
-                  window.open("https://canva.com", "_blank");
+                  window.open(
+                    "https://drive.google.com/file/d/1HFqITBMQOOfHAWlNML5VWGVFM7C-C755/view?usp=sharing",
+                    "_blank"
+                  );
                 }}
               />
             </div>
