@@ -21,10 +21,10 @@ ReactDOM.render(
       <ScrollToTop />
       <Switch>
         <Route exact path="/Portfolio" component={Home} />
-        <Route exact path="Portfolio/website" component={Website} />
-        <Route exact path="Portfolio/rick" component={Rick} />
-        <Route exact path="Portfolio/calculator" component={Calculator} />
-        <Route exact path="Portfolio/gym" component={Gym} />
+        <Route exact path="Portfolio/Website" component={Website} />
+        <Route exact path="Portfolio/Rick" component={Rick} />
+        <Route exact path="Portfolio/Calculator" component={Calculator} />
+        <Route exact path="Portfolio/Gym" component={Gym} />
         <Route exact path="/" component={Home} />
         <Route component={NotFound} />
         <Presentation />
