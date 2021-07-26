@@ -9,7 +9,7 @@ function Error() {
         La página que estas buscando no existe o ha sido eliminada
       </div>
 
-      <a href="/" className="all-works-button">
+      <a href="/Portfolio" className="all-works-button">
         Volver a Home
       </a>
     </div>

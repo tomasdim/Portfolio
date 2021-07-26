@@ -139,7 +139,7 @@ export default function ButtonAppBarCopy() {
     <div className={classes.root}>
       <AppBar justifyContent="center" color="white" elevation={0}>
         <Toolbar className={classes.asdfr}>
-          <a href="/" className={classes.linkText}>
+          <a href="/Portfolio" className={classes.linkText}>
             <Typography variant="h6" className={classes.title}>
               <div className={classes.nameText}>Tomás Di Maria</div>
               <div className={classes.smallText}>Front End Developer</div>
