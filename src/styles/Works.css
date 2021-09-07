@@ -5,11 +5,15 @@
 }
 
 .works-container {
+  display: flex;
   margin-right: 5%;
   margin-left: 5%;
+  padding-top: 5%;
   max-width: 90%;
   background-color: #fff;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
+  width: 100%;
+  justify-content: center;
 }
 
 @media (max-width: 600px) {
@@ -18,6 +22,7 @@
     margin-right: 0;
     width: 100%;
     max-width: 100%;
+    flex-direction: column;
   }
 }
 
@@ -69,7 +74,16 @@
 }
 .works-image {
   display: block;
-  width: 100%;
+  width: 60%;
+}
+
+@media (max-width: 600px) {
+  .works-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 }
 
 .works-overlay {
@@ -129,4 +143,94 @@
 .image-description {
   font-size: 12px;
   margin-top: 5px;
+}
+
+.mockup-image {
+  width: 400px;
+  display: flex;
+}
+
+@media (max-width: 802px) {
+  .mockup-image {
+    width: 200px;
+  }
+}
+
+.work-tag {
+  background-color: #01b7ff;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.MuiSvgIcon-root {
+  transition-duration: 1s;
+}
+
+.work-icon {
+  cursor: pointer;
+}
+
+.work-icon:hover {
+  color: #01b7ff;
+}
+
+.tags-container {
+  padding: 15px;
+}
+
+@media (max-width: 802px) {
+  .tags-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 802px) {
+  .tags-container button {
+    align-self: center;
+  }
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+}
+
+@media (max-width: 802px) {
+  .icons-container {
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+.works-details-container {
+  width: 100%;
+  margin-right: 75px;
+}
+
+.works-details-container h3 {
+  font-size: 23px;
+  margin-top: 0;
+}
+
+@media (max-width: 802px) {
+  .works-details-container h3,
+  p {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 802px) {
+  .works-section-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
